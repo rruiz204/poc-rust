@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+  # Entrypoint
+  "crates/mainner",
+
+  # Libs
+  "crates/libs/lib-functions",
+  "crates/libs/lib-variables",
+]
