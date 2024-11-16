@@ -22,10 +22,31 @@ fn assing_conditions(caterogy: &str) -> i32 {
     return number;
 }
 
+
+fn loops_with_ranges() {
+    let numbers: [i32; 5] = [1, 2, 3, 4, 5];
+
+    for number in 1..numbers.len() {
+        println!("{number}");
+    }
+}
+
+
+fn loops_with_collections() {
+    let vector: Vec<i32> = vec![1, 2, 3];
+
+    for number in vector {
+        println!("{number}")
+    }
+}
+
 pub fn flow_facade() {
   simple_conditions(100);
   conditions_operators(16);
 
   let result: i32 = assing_conditions("zetha");
   println!("The result is: {}", result);
+
+  loops_with_ranges();
+  loops_with_collections();
 }
