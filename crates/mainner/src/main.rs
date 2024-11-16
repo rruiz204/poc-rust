@@ -1,9 +1,6 @@
-use lib_variables::greeting;
-use lib_functions::*;
+use lib_variables::*;
 
 fn main() {
-    greeting("Morderkay");
-
-    let result: i32 = sum(10, 20);
-    println!("The reuslt is: {}", result);
+    show_variable_types();
+    show_compound_types();
 }
