@@ -1,6 +1,6 @@
 use std::{collections::HashMap, vec};
 
-pub fn show_variable_types() {
+fn show_variable_types() {
     let integer: i32 = 100;
     println!("The value of 'integer' is: {}", integer);
 
@@ -15,7 +15,7 @@ pub fn show_variable_types() {
 }
 
 
-pub fn show_compound_types() {
+fn show_compound_types() {
     let tuple: (i32, bool) = (100, false);
     println!("The value of the tuple is: {:?}", tuple);
 
@@ -33,7 +33,7 @@ pub fn show_compound_types() {
 }
 
 
-pub fn mutability_example() {
+fn mutability_example() {
     let mut text: String = String::from("first text");
     println!("Mutability first value: {}", text);
 
@@ -42,7 +42,7 @@ pub fn mutability_example() {
 }
 
 
-pub fn shadowing_example() {
+fn shadowing_example() {
     let exe: String = String::from("abc");
 
     let exe: usize = exe.len();
