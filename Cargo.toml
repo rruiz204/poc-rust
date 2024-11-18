@@ -8,4 +8,5 @@ members = [
   "crates/libs/lib-functions",
   "crates/libs/lib-variables",
   "crates/libs/lib-flow",
+  "crates/libs/lib-ownership",
 ]

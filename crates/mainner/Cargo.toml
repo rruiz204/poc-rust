@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 lib-variables = { path = "../libs/lib-variables" }
 lib-functions = { path = "../libs/lib-functions" }
+lib-ownership = { path = "../libs/lib-ownership"}
 lib-flow = { path = "../libs/lib-flow" }

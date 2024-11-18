@@ -1,7 +1,7 @@
-use lib_variables::variables_facade;
-use lib_flow::flow_facade;
+use lib_ownership::ownership_facade;
+use lib_functions::functions_facade;
 
 fn main() {
-    variables_facade();
-    flow_facade();
+    functions_facade();
+    ownership_facade();
 }
