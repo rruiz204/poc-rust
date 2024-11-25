@@ -6,4 +6,6 @@ members = [
   "crates/libs/lib-variables",
   "crates/libs/lib-ownership",
   "crates/libs/lib-structures",
+  "crates/libs/lib-compound",
+  "crates/libs/lib-typing",
 ]

@@ -8,3 +8,5 @@ lib-variables = { path = "../libs/lib-variables" }
 lib-functions = { path = "../libs/lib-functions" }
 lib-ownership = { path = "../libs/lib-ownership"}
 lib-structures = { path = "../libs/lib-structures"}
+lib-compound = { path = "../libs/lib-compound"}
+lib-typing = { path = "../libs/lib-typing"}
