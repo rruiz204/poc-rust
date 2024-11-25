@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  poc-rust:
+    image: poc-rust
+    container_name: poc-rust
+    build:
+      context: .
+      dockerfile: Dockerfile

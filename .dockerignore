@@ -1,0 +1,10 @@
+# General
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Rust
+Cargo.lock
+/target
