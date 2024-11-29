@@ -9,4 +9,5 @@ members = [
   "crates/libs/lib-exceptions",
   "crates/libs/lib-compound",
   "crates/libs/lib-typing",
+  "crates/libs/lib-testing",
 ]

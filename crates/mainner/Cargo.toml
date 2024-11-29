@@ -11,3 +11,4 @@ lib-structures = { path = "../libs/lib-structures"}
 lib-exceptions = { path = "../libs/lib-exceptions"}
 lib-compound = { path = "../libs/lib-compound"}
 lib-typing = { path = "../libs/lib-typing"}
+lib-testing = { path = "../libs/lib-testing"}
